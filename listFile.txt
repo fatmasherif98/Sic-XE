@@ -1,0 +1,18 @@
+100b prog start 100b 
+100b fatma add #12 
+100e  add #3 
+1011  org 1020 
+3fc  add #3 
+3ff  add =w'8' 
+402  add #3 
+405  ltorg  
+405  add #3 
+408 pls equ fatma+6+fatma 
+408  end  
+
+Symbol Table
+fatma 100b
+pls 201c
+prog 100b
+Literal Table
+8 405

@@ -1,0 +1,12 @@
+.2345678901234567890
+prog     start   100b
+fatma    add     #12
+         add     #3
+         org     1020
+         add     #3
+         add     =w'8'
+         add     #3
+         ltorg
+         add     #3
+pls      equ     fatma+6+fatma
+         end 
